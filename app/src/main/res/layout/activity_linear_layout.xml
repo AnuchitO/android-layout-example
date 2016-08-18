@@ -10,31 +10,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sprint3r.com.layout.LinearLayout">
 
-    <TextView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="#ff0000"
-        android:text="default" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="0dp">
 
-    <TextView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_gravity="right"
-        android:background="#ff00ff"
-        android:text="right" />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#ff0000"
+            android:text="default" />
 
-    <TextView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:background="#00ff00"
-        android:text="center" />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:background="#ff00ff"
+            android:text="right" />
 
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#00ff00"
+            android:text="center" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_weight="1"
+        android:layout_height="0dp">
 
         <TextView
             android:text="horizon"
