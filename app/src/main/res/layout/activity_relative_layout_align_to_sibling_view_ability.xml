@@ -4,7 +4,6 @@
     android:layout_height="match_parent">
 
     <!--
-            android:background="#ff1111"
             android:background="#f96825"
             android:background="#da51ec"
             android:background="#7066e1"
@@ -18,7 +17,17 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:background="#ccec9a42"
-        android:text="default"
+        android:id="@+id/origin"
+        android:text="origin"
         android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_toRightOf="@id/origin"
+        android:layout_alignTop="@id/origin"
+        android:text="ID_1\ntoRightOf=origin\n+alignTop=origin"
+        android:textColor="#000000"
+        android:background="#ff1111" />
 
 </RelativeLayout>
