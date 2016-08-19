@@ -2,4 +2,4 @@
 
 > LinearLayout
 
-<img src="linear_layout.png" width="432">
+<img src="linear_layout.png" width="332">
