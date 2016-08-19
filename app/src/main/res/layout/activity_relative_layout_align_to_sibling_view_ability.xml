@@ -4,7 +4,6 @@
     android:layout_height="match_parent">
 
     <!--
-            android:background="#f96825"
             android:background="#da51ec"
             android:background="#7066e1"
             android:background="#d1ff54"
@@ -22,12 +21,23 @@
         android:textColor="#000000" />
 
     <TextView
+        android:id="@+id/ID_1"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_alignTop="@id/origin"
         android:layout_toRightOf="@id/origin"
         android:background="#ff1111"
         android:text="ID_1\ntoRightOf=origin\n+alignTop=origin"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/ID_2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@id/ID_1"
+        android:layout_below="@id/ID_1"
+        android:background="#f96825"
+        android:text="ID_2\nalignLeft=ID_1\n+below=ID_1"
         android:textColor="#000000" />
 
 </RelativeLayout>
