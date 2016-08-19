@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#ccec9a42"
+        android:text="default"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:background="#ffff00"
+        android:text="align\nParent\nRight"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ff1111"
+        android:text="center\nHorizontal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerVertical="true"
+        android:background="#f96825"
+        android:text="center\nVertical"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:background="#da51ec"
+        android:text="cneter\nIn\nParent"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#7066e1"
+        android:text="centerVertical+alignParentRight"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="#d1ff54"
+        android:text="align\nParent\nBottom"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#aa00aa00"
+        android:text="alignParentBottom+centerHorizontal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#bb00bbff"
+        android:text="alignParentBottom+alignParentRight"
+        android:textColor="#000000" />
+
+</RelativeLayout>
