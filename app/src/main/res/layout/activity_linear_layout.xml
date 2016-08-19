@@ -20,6 +20,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="#ff0000"
+            android:textColor="#000000"
             android:text="default" />
 
         <TextView
@@ -27,6 +28,7 @@
             android:layout_height="60dp"
             android:layout_gravity="right"
             android:background="#ff00ff"
+            android:textColor="#000000"
             android:text="right" />
 
         <TextView
@@ -34,6 +36,7 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:background="#00ff00"
+            android:textColor="#000000"
             android:text="center" />
 
     </LinearLayout>
@@ -45,21 +48,24 @@
         android:layout_height="0dp">
 
         <TextView
-            android:text="horizon"
+            android:text="horizon\nlayout_weight=1"
+            android:textColor="#000000"
             android:background="#0ffff0"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="60dp" />
 
         <TextView
-            android:text="horizon"
+            android:text="horizon\nlayout_weight=1"
+            android:textColor="#000000"
             android:background="#aa00ff"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="60dp" />
 
         <TextView
-            android:text="horizon"
+            android:text="horizon\nlayout_weight=1"
+            android:textColor="#000000"
             android:background="#ff00aa"
             android:layout_weight="1"
             android:layout_width="0dp"
