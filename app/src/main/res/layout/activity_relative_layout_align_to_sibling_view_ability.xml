@@ -14,20 +14,20 @@
     -->
 
     <TextView
+        android:id="@+id/origin"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:background="#ccec9a42"
-        android:id="@+id/origin"
         android:text="origin"
         android:textColor="#000000" />
 
     <TextView
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_toRightOf="@id/origin"
         android:layout_alignTop="@id/origin"
+        android:layout_toRightOf="@id/origin"
+        android:background="#ff1111"
         android:text="ID_1\ntoRightOf=origin\n+alignTop=origin"
-        android:textColor="#000000"
-        android:background="#ff1111" />
+        android:textColor="#000000" />
 
 </RelativeLayout>
