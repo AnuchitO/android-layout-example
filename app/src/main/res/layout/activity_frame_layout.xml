@@ -5,10 +5,11 @@
 
 
     <TextView
-        android:layout_height="@dimen/layout_height"
         android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
         android:background="#ccec9a42"
-        android:text="default" />
+        android:text="default"
+        android:textColor="#000000" />
 
 
     <TextView
@@ -16,7 +17,8 @@
         android:layout_height="@dimen/layout_height"
         android:layout_gravity="center_horizontal"
         android:background="#ff1111"
-        android:text="layout_gravity=center_horizontal" />
+        android:text="layout_gravity=center_horizontal"
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="@dimen/layout_width"
@@ -31,14 +33,16 @@
         android:layout_height="@dimen/layout_height"
         android:layout_gravity="center_vertical"
         android:background="#f96825"
-        android:text="layout_gravity=center_vertical" />
+        android:text="layout_gravity=center_vertical"
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="@dimen/layout_width"
         android:layout_height="@dimen/layout_height"
         android:layout_gravity="center"
         android:background="#da51ec"
-        android:text="layout_gravity=center" />
+        android:text="layout_gravity=center"
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="@dimen/layout_width"
@@ -62,13 +66,15 @@
         android:layout_height="@dimen/layout_height"
         android:layout_gravity="bottom|center_horizontal"
         android:background="#aa00aa00"
-        android:text="layout_gravity=bottom | center_horizontal" />
+        android:text="layout_gravity=bottom | center_horizontal"
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="@dimen/layout_width"
         android:layout_height="@dimen/layout_height"
         android:layout_gravity="bottom|right"
         android:background="#bb00bbff"
-        android:text="layout_gravity=bottom | right" />
+        android:text="layout_gravity=bottom | right"
+        android:textColor="#000000" />
 
 </FrameLayout>
