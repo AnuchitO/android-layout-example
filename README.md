@@ -58,5 +58,15 @@
 
 * LayoutParams
   * layout_gravity
-  
+
 <img src="frame_layout.png" width="332">
+
+---
+## Tip
+
+### Layout prefix
+`layout_*` is a component will be effect between self-component with external components.
+
+`not has layout prefix` is effect inside of component.
+
+<img src="outside_inside.png" width="322">
