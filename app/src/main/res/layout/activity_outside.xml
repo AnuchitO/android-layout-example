@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
 
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#a7a6a6">
+
+            <TextView
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="@dimen/layout_height"
+                android:background="#ff00ff"
+                android:gravity="bottom"
+                android:text="gravity=bottom"
+                android:textColor="#000000" />
+
+
+        </FrameLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#dfdddd">
+
+            <TextView
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="@dimen/layout_height"
+                android:layout_gravity="bottom"
+                android:background="#00ff00"
+                android:text="layout_gravity=bottom"
+                android:textColor="#000000" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#dfdddd">
+
+            <TextView
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="@dimen/layout_height"
+                android:background="#f36ef5"
+                android:padding="20dp"
+                android:text="padding=20dp"
+                android:textColor="#000000"
+                android:textColorHighlight="#f7f7f7" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#a7a6a6">
+
+            <TextView
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="@dimen/layout_height"
+                android:layout_margin="20dp"
+                android:background="#b2f767"
+                android:text="layout_margin=20dp"
+                android:textColor="#000000" />
+        </FrameLayout>
+
+    </LinearLayout>
 </LinearLayout>
+
